@@ -5,18 +5,12 @@
 
     <packaging>pom</packaging>
 
-
-
     <modules>
         <module>app-domain-model</module>
         <module>user-service</module>
         <module>project-service</module>
         <module>task-service</module>
         <module>app-client-management</module>
-        <module>app-domain-model</module>
-        <module>project-service</module>
-        <module>task-service</module>
-        <module>user-service</module>
     </modules>
 
     <parent>
@@ -110,7 +104,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
     <build>
         <plugins>
