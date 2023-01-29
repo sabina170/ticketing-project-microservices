@@ -10,8 +10,11 @@ spring:
           uri: https://github.com/sabina170/ticketing-project-microservices-config
           default-label: main
           username: sabina170
-          password: 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
+          password: '{cipher}a28b42072452988d5e4f96c02a549e3d8ddb40474d6a7d13079a40f9d6a6a16b307aee55891614dd8be5f0f3d544ce1691db1e409b6b07305bb5e03e7d58b712'
       fail-fast: true
+encrypt:
+  key: cydeo
 
 server:
   port: 8888
+
