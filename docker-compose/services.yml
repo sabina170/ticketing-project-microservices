@@ -57,11 +57,11 @@ services:
     networks:
       - backend
   discovery-service:
-      image: ${GROUP_ID}/discovery-service:${SERVICE_VERSION:-latest}
-      ports:
-        - "8761:8761"
-      networks:
-        - backend
+    image: ${GROUP_ID}/discovery-service:${SERVICE_VERSION:-latest}
+    ports:
+      - "8761:8761"
+    networks:
+      - backend
   gateway-service:
     image: ${GROUP_ID}/gateway-service:${SERVICE_VERSION:-latest}
     ports:
