@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/sabina170/ticketing-project-microservices-config
           default-label: main
           username: sabina170
-          password: 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
+          password: '{cipher}a281732a3172f0081c4281e42036fcc372482a1e469f92bb4e09d5938876f8d6206a2785858082861c6d4ae9e7fdb0e3af3981f13c2924360747b14da9527225'
       fail-fast: true
 
 encrypt:
